@@ -20,11 +20,7 @@ function scuberGreetingForFeet(distance){
 
 // This function limits the rider's city to NYC only. If the rider was elsewhere, it returns "No go."
 function ternaryCheckCity(city){
-  if (city === "NYC") {
-    return "Ok, sounds good.";
-  } else {
-    return "No go."
-  }
+  return city === "NYC" ? "Ok, sounds good." : "No go.";
 }
 
 // This function returns a greeting according to the amount of the tip.
